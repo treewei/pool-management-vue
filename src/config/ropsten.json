@@ -1,0 +1,56 @@
+{
+  "network": "ropsten",
+  "chainId": 3,
+  "defaultPrecision": 2,
+  "subgraphUrl": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer-kovan",
+  "alchemyWsUrl": "wss://eth-ropsten.ws.alchemyapi.io/v2/JU-NSY4EUX7aH5lw8aHsHJYa7GqUo2oM",
+  "addresses": {
+    "bFactory": "0x836E3A5d5D303EEA4FBE332B4Be2F3660e899FaB",
+    "bActions": "0x02EFDB542B9390ae7C1620B29674e02F9c0d86CC",
+    "dsProxyRegistry": "0x0c92484cea666ddd508f07819d67c90ae8d29069",
+    "proxy": "0x2641f150669739986CDa3ED6860DeD44BC3Cda5d",
+    "weth": "0xe89caa624a2d38af88d8bb02e4f5f11dabbfa00c",
+    "multicall": "0xf773be4a7047e8d520c9a583e5e884d74707ab92"
+  },
+  "connectors": {
+    "injected": {
+      "id": "injected",
+      "name": "MetaMask"
+    },
+    "walletconnect": {
+      "id": "walletconnect",
+      "name": "WalletConnect",
+      "options": {
+        "rpc": {
+          "3": "https://eth-ropsten.alchemyapi.io/v2/JU-NSY4EUX7aH5lw8aHsHJYa7GqUo2oM"
+        }
+      }
+    },
+    "portis": {
+      "id": "portis",
+      "name": "Portis",
+      "options": {
+        "network": "kovan",
+        "dappId": "3f1c3cfc-7dd5-4e8a-aa03-71ff7396d9fe"
+      }
+    },
+    "walletlink": {
+      "id": "walletlink",
+      "name": "Coinbase",
+      "options": {
+        "appName": "Pool management - Balancer",
+        "darkMode": true,
+        "chainId": 3,
+        "ethJsonrpcUrl": "https://eth-ropsten.alchemyapi.io/v2/C467LJc7Aa761LLxlcxXvhIG9HzDTtKw"
+      }
+    },
+    "fortmatic": {
+      "id": "fortmatic",
+      "name": "Fortmatic",
+      "options": {
+        "apiKey": "pk_live_9CE8FD92E54684ED"
+      }
+    }
+  }
+}
+
