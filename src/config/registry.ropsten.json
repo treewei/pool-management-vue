@@ -1,7 +1,7 @@
 {
   "tokens": {
-    "0xfb5131e01e33ffa15292af26cf3a5d831e11fa1e": {
-      "address": "0xfb5131e01e33ffa15292af26cf3a5d831e11fa1e",
+    "0xe89caa624a2d38af88d8bb02e4f5f11dabbfa00c": {
+      "address": "0xe89caa624a2d38af88d8bb02e4f5f11dabbfa00c",
       "id": "weth",
       "name": "Wrapped Ether",
       "symbol": "WETH",
@@ -10,11 +10,21 @@
       "color": "#828384",
       "hasIcon": false
     },
-    "0xe89caa624a2d38af88d8bb02e4f5f11dabbfa00c": {
-      "address": "0xe89caa624a2d38af88d8bb02e4f5f11dabbfa00c",
+    "0xfb5131e01e33ffa15292af26cf3a5d831e11fa1e": {
+      "address": "0xfb5131e01e33ffa15292af26cf3a5d831e11fa1e",
       "id": "dai",
       "name": "Dai Stablecoin",
       "symbol": "DAI",
+      "decimals": 18,
+      "precision": 2,
+      "color": "#fab323",
+      "hasIcon": false
+    },
+    "0xd683ad07347f68BAa83d3B8ED64DE88349620274": {
+      "address": "0xd683ad07347f68BAa83d3B8ED64DE88349620274",
+      "id": "sxat",
+      "name": "SwapX A Token",
+      "symbol": "SXAT",
       "decimals": 18,
       "precision": 2,
       "color": "#fab323",

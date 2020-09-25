@@ -6,9 +6,9 @@
   "alchemyWsUrl": "wss://eth-ropsten.ws.alchemyapi.io/v2/JU-NSY4EUX7aH5lw8aHsHJYa7GqUo2oM",
   "addresses": {
     "bFactory": "0x836E3A5d5D303EEA4FBE332B4Be2F3660e899FaB",
-    "bActions": "0x02EFDB542B9390ae7C1620B29674e02F9c0d86CC",
+    "bActions": "0x87ccd48f9ef3543d093009b74b7c1e115c54e2f0",
     "dsProxyRegistry": "0x0c92484cea666ddd508f07819d67c90ae8d29069",
-    "proxy": "0x2641f150669739986CDa3ED6860DeD44BC3Cda5d",
+    "proxy": "0xffc4bc98d3787f9d8b9985b733cb867cb7544d0e",
     "weth": "0xfb5131e01e33ffa15292af26cf3a5d831e11fa1e",
     "multicall": "0xf773be4a7047e8d520c9a583e5e884d74707ab92"
   },
